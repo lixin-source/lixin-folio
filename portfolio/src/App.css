@@ -30,3 +30,33 @@ nav a {
   justify-content: center;
   align-items: center;
 }
+
+/* ListItem.css */
+.list-item {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrow {
+  font-size: 18px;
+}
+
+.expanded {
+  transform: rotate(180deg);
+}
+
+.item-content {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

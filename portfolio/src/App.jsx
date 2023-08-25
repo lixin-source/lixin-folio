@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import './App.css'
 import Type from "./components/Type";
+import ListItem from "./components/ListItem"
 
 function App() {
   
@@ -67,7 +68,8 @@ function App() {
     </section>
 
     <section id="experiences">
-      
+      <ListItem title='Event & Programs Intern' content='Test'/>
+
     </section>
     </div>
   )
