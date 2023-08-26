@@ -1,5 +1,5 @@
 import Typewriter from "typewriter-effect";
-import "../App.css"; // Assuming you have a CSS file for styling
+import "../App.css";
 
 function Type() {
   return (
@@ -11,7 +11,6 @@ function Type() {
           <Typewriter
             options={{
               strings: [
-                "Xin Yi Li",
                 "a Web Developer",
                 "a UX/UI Designer",
                 "a Data Scientist",
