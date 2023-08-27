@@ -15,7 +15,7 @@ const ListItem = ({ title, content, img, date, location}) => {
     <div className="list-item">
       <div className="item-header" onClick={toggleExpansion}>
         <img src={img}/>
-        <h3>{title}</h3>
+        <h4>{title}</h4>
         {/* <span className={`arrow ${isExpanded ? 'expanded' : ''}`}>▼</span> */}
       </div>
       {isExpanded && (

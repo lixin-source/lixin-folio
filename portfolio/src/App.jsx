@@ -1,11 +1,16 @@
-// import { useEffect } from 'react';
+import { useEffect } from 'react';
 import './App.css'
 import Type from "./components/Type";
-import ListItem from "./components/ListItem"
-import Nav from "./components/Nav"
+import ListItem from "./components/ListItem";
+import Nav from "./components/Nav";
+import ProjectCard from './components/ProjectCard';
 
 function App() {
   
+  useEffect(() => {
+    document.title = 'Xin Yi Li Portfolio'; // Set your desired title here
+  }, []);
+
   return (
     <div>
     {/* NAV */}
@@ -37,6 +42,7 @@ function App() {
       </div>
     </section>
 
+    {/* EXPERIENCES */}
     <section id="experiences">
       <div className='expSection'>
         <h1>experiences</h1>
@@ -134,6 +140,46 @@ function App() {
           ' img='/src/imgs/uwnyc.jpg' date ='Jan 2020' location='New York City, NY'/>
 
         </div>
+      </div>
+    </section>
+
+    {/* PROJECTS */}
+    <section id='projects'>
+      <h1>projects</h1>
+      <div className='projectsSection'>
+        <ProjectCard title='Cute Recipes' content='A frontend application with CRUD that allows users to input their own 
+        recipes. I designed and created it by myself to help people share their recipes with each other.' img='/src/imgs/proj1.PNG'
+        techstack='React, Javascript, HTML/CSS, Supabase' github='https://github.com/lixin-source/codepathwork/tree/main/hobbyhub' demo='https://cute-recipes-finalproject.netlify.app/'/>
+        <ProjectCard title='FinLand' content='Using usability tests & user research, this Figma prototype was created to address financial literacy. I worked in a team of two to create the prototype and conducted user research as well.' 
+        img='/src/imgs/proj2.PNG' techstack='Figma' demo='https://www.figma.com/proto/qrRI6cuDM4SQmPXWXwyfLb/Avocademy-team-library?node-id=411%3A21&scaling=scale-down&page-id=411%3A18&starting-point-node-id=411%3A21&show-proto-sidebar=1' />
+        <ProjectCard title='Sanrio Flashcards' content='A frontend React quiz application for users to test their sanrio knowledge. This is a for-fun application that people can use to quiz themselves, share with friends, etc.' 
+        img='/src/imgs/proj3.PNG' techstack='React, Javascript, HTML/CSS' github='https://github.com/lixin-source/sanrio-quiz' demo='https://nimble-marzipan-e3d3b4.netlify.app/'/>
+      </div>
+    </section>
+
+    {/* CONTACT */}
+    <section id='contact'>
+      <div className='contactSection'>
+        <h1> Feel Free to Connect With Me</h1> 
+        <div className='contactList'>
+        <a href='mailto:xinyi.li88@bcmail.cuny.edu' target='_blank' rel='noopener noreferrer'>
+            <button><i className='icon-envelope'></i>tes</button>
+          </a>
+          <a href='https://github.com/lixin-source' target='_blank' rel='noopener noreferrer'>
+            <button><i className='icon-github'></i>tes</button>
+          </a>
+          <a href='https://www.linkedin.com/in/x-li/' target='_blank' rel='noopener noreferrer'>
+            <button><i className='icon-linkedin'></i>yes</button>
+          </a>
+        </div>
+        </div>
+    </section>
+
+    {/* FOOTER */}
+    <section id='footer'>
+      <div className='footerSection'>
+        <h6>Copyright © 2023 Xin Yi Li</h6>
+        <p>Inspired by Isabel V. Abonitalla & Soumyajit Behera </p>
       </div>
     </section>
     </div>
