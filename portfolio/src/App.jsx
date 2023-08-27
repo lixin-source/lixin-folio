@@ -1,10 +1,11 @@
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css'
 import Type from "./components/Type";
 import ListItem from "./components/ListItem";
 import Nav from "./components/Nav";
 import ProjectCard from './components/ProjectCard';
 import BackToTopButton from './components/TopButton';
+import Loading from './components/Loading';
 
 function App() {
   
@@ -12,7 +13,20 @@ function App() {
     document.title = 'Xin Yi Li Portfolio'; // Set your desired title here
   }, []);
 
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Simulate loading with useEffect
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false); // Once loading is done, set isLoading to false
+    }, 2000); // Simulating a 2-second loading process
+  }, []);
+
   return (
+    <div className="App">
+      {isLoading ? (
+        <Loading /> // Show the loading component while isLoading is true
+      ) : (
     <div>
     {/* NAV */}
       <Nav />
@@ -27,11 +41,10 @@ function App() {
         <div className='aboutLeft'>
           <h1>about</h1>
           <div className='aboutText'>
-          <p> Hi! I&apos;m Xin Yi Li, a first-generation college graduate from CUNY Brooklyn College in May 2023 (Computer Science & Sociology).
-            I&apos;ve participated in tech opportunities with Microsoft Research, Pfizer, Brooklyn College&apos;s Cancer Center, & more! I also have 
-            an Associate&apos;s from CUNY Borough of Manhattan Community College (May 2021) in Computer Science.
+          <p> Hi! I&apos;m Xin Yi Li, a first-generation college graduate from CUNY Brooklyn College in May 2023 (Bachelor&apos;Computer Science & Sociology).
+          I also gradued from CUNY Borough of Manhattan Community College in May 2021 (Associate&apos;s in Computer Science).
           </p>
-          <p> I also have a strong skillset in public speaking, content creation, social media management, & community organizing that I developed
+          <p> I&apos;ve participated in tech opportunities with Microsoft Research, Pfizer, Brooklyn College&apos;s Cancer Center, & more. I also have a strong skillset in public speaking, content creation, social media management, & community organizing that I developed
             during my undergrad with NYC&apos;s Department of Education, CUNY, TheDream.US, and more!
           </p>
           <p>
@@ -191,6 +204,8 @@ function App() {
       </div>
     </section>
     <BackToTopButton/>
+    </div>
+    )}
     </div>
   )
 }
