@@ -4,6 +4,7 @@ import Type from "./components/Type";
 import ListItem from "./components/ListItem";
 import Nav from "./components/Nav";
 import ProjectCard from './components/ProjectCard';
+import BackToTopButton from './components/TopButton';
 
 function App() {
   
@@ -26,16 +27,17 @@ function App() {
         <div className='aboutLeft'>
           <h1>about</h1>
           <div className='aboutText'>
-          <p> Hi! I&apos;m Xin Yi Li, a first-generation college graduate from Brooklyn College in May 2023 (Computer Science & Sociology).
-            I&apos;ve participated in tech opportunities with Microsoft Research, Pfizer, Brooklyn College&apos;s Cancer Center, and more!
+          <p> Hi! I&apos;m Xin Yi Li, a first-generation college graduate from CUNY Brooklyn College in May 2023 (Computer Science & Sociology).
+            I&apos;ve participated in tech opportunities with Microsoft Research, Pfizer, Brooklyn College&apos;s Cancer Center, & more! I also have 
+            an Associate&apos;s from CUNY Borough of Manhattan Community College (May 2021) in Computer Science.
           </p>
-          <p> I also have a strong skillset in public speaking, content creation, social media management, and community organizing that I developed
+          <p> I also have a strong skillset in public speaking, content creation, social media management, & community organizing that I developed
             during my undergrad with NYC&apos;s Department of Education, CUNY, TheDream.US, and more!
           </p>
           <p>
             The main programming languages I use are Python & Javascript.
           </p>
-          <p> I&apos;m open to opportunities in frontend development, data science/analysis, UX research, community organizing, and public speaking. Feel free to reach out!</p>
+          <p> I&apos;m open to opportunities in frontend development, data science/analysis, UX research, community organizing, & public speaking. Feel free to reach out!</p>
           </div>
         </div>
         <img src='src/imgs/aboutimg.png' className='aboutimg'/>
@@ -157,6 +159,12 @@ function App() {
       </div>
     </section>
 
+    {/* MEDIA */}
+    <section id='media'>
+      <h1>media</h1>
+      <p><em>As a panelist & public speaker, I strive to continue advocacy outside of the classroom and within technology to raise awareness and share information</em></p>
+    </section>
+
     {/* CONTACT */}
     <section id='contact'>
       <div className='contactSection'>
@@ -182,6 +190,7 @@ function App() {
         <p>Inspired by Isabel V. Abonitalla & Soumyajit Behera </p>
       </div>
     </section>
+    <BackToTopButton/>
     </div>
   )
 }
