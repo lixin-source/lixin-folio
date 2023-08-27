@@ -48,10 +48,6 @@ nav a {
   font-size: xx-large;
 }
 
-#about {
-  height: 75vh;
-}
-
 /* ABOUT */
 .aboutSection {
   display: flex;
@@ -87,9 +83,18 @@ nav a {
 
 .item-header {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   cursor: pointer;
+}
+
+.item-header img {
+  width: 55px;
+  height: auto;
+}
+
+.item-header h3 {
+  padding-left: 20px;
 }
 
 .arrow {
@@ -105,4 +110,26 @@ nav a {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+
+.itemContentLine {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* experiences */
+#experiences h1 {
+  font-size: 30px;
+  padding-left: 200px;
+  margin-top: 50px;
+}
+
+.expSection {
+  align-items: left;
+  /* padding-left: 200px; */
+}
+
+.timeline {
+  padding-left: 200px;
+  padding-right: 200px;
 }
