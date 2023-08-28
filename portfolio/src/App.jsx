@@ -4,6 +4,7 @@ import Type from "./components/Type";
 import ListItem from "./components/ListItem";
 import Nav from "./components/Nav";
 import ProjectCard from './components/ProjectCard';
+import MediaCard from './components/MediaCard';
 import BackToTopButton from './components/TopButton';
 import Loading from './components/Loading';
 
@@ -175,7 +176,10 @@ function App() {
     {/* MEDIA */}
     <section id='media'>
       <h1>media</h1>
-      <p><em>As a panelist & public speaker, I strive to continue advocacy outside of the classroom and within technology to raise awareness and share information</em></p>
+      <p className='subtxt'><em>As a panelist & public speaker, I strive to continue advocacy outside of the classroom and within technology to raise awareness and share information</em></p>
+      <div className='mediaCards'>
+        <MediaCard link='https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-target-blank.md'img='/src/imgs/ifem.jpg' title='Panelist' date='Feb 2023' event='Conference' descrip='Good stuff'/>
+      </div>
     </section>
 
     {/* CONTACT */}
@@ -184,13 +188,13 @@ function App() {
         <h1> Feel Free to Connect With Me</h1> 
         <div className='contactList'>
         <a href='mailto:xinyi.li88@bcmail.cuny.edu' target='_blank' rel='noopener noreferrer'>
-            <button><i className='icon-envelope'></i>tes</button>
+            <button><img src='/src/assets/light/mail.svg' alt='Email' /></button>
           </a>
           <a href='https://github.com/lixin-source' target='_blank' rel='noopener noreferrer'>
-            <button><i className='icon-github'></i>tes</button>
+            <button><img src='/src/assets/light/github.svg' alt='GitHub' /></button>
           </a>
           <a href='https://www.linkedin.com/in/x-li/' target='_blank' rel='noopener noreferrer'>
-            <button><i className='icon-linkedin'></i>yes</button>
+            <button><img src=' /src/assets/light/linkedin.svg' alt='LinkedIn' /></button>
           </a>
         </div>
         </div>
