@@ -43,7 +43,7 @@ function App() {
           <h1>about</h1>
           <div className='aboutText'>
           <p> Hi! I&apos;m Xin Yi Li, a first-generation college graduate from CUNY Brooklyn College in May 2023 (Bachelor&apos;Computer Science & Sociology).
-          I also gradued from CUNY Borough of Manhattan Community College in May 2021 (Associate&apos;s in Computer Science).
+          I also graduated from CUNY Borough of Manhattan Community College in May 2021 (Associate&apos;s in Computer Science).
           </p>
           <p> I&apos;ve participated in tech opportunities with Microsoft Research, Pfizer, Brooklyn College&apos;s Cancer Center, & more. I also have a strong skillset in public speaking, content creation, social media management, & community organizing that I developed
             during my undergrad with NYC&apos;s Department of Education, CUNY, TheDream.US, and more!
