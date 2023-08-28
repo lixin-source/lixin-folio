@@ -20,7 +20,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false); // Once loading is done, set isLoading to false
-    }, 2000); // Simulating a 2-second loading process
+    }, 1000); // Simulating a second loading process
   }, []);
 
   return (

@@ -5,10 +5,10 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url('../assets/square-spinner.gif');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+}
+
+.loading h1 {
+  margin-left: 5px;
 }
 
 /* TYPE.JSX */

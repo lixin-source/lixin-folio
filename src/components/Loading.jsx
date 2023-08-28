@@ -1,8 +1,8 @@
 const Loading = () => {
     return (
       <div className="loading">
-        <img src="/src/imgs/loader1.gif"/>
-        Loading...
+        <img src="/src/imgs/spin1.gif"/>
+        <h1>Loading...</h1>
       </div>
     );
   };
