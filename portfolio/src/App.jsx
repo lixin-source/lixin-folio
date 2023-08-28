@@ -184,6 +184,9 @@ function App() {
         <MediaCard link='https://www.linkedin.com/posts/activity-7057743198399393792-YTgy/?utm_source=share&utm_medium=member_desktop'
         img='/src/imgs/media/media2.PNG' title='Panelist' date='Apr 2023' event='CUNY IIE Conference' descrip='As a part of the conference, the panel discussed career opportunities and challenges for immigrant educators within higher education.'/>
       
+      <MediaCard link='https://www.linkedin.com/posts/activity-7057743198399393792-YTgy/?utm_source=share&utm_medium=member_desktop'
+        img='/src/imgs/media/media3.jpg' title='Panelist' date='Feb 2023' event='TheDream.US Scholar Welcome' descrip='A speaker panel about the experiences of TheDream.US scholars, helping students answer questions'/>
+      
       </div>
     </section>
 
