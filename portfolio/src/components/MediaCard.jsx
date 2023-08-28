@@ -8,11 +8,11 @@ function MediaCard({ link, img, event, date, title, descrip }) {
       <img src={img} alt={event} className="media-card-img" />
       <div className="media-card-content">
         <div className='mediaCardTopLine'>
-            <p>{event}</p>
+        <p>{title}</p>
             <span className='mediaCircle'></span>
             <p>{date}</p>
         </div>
-        <h2>{title}</h2>
+        <h3>{event}</h3>
         <p>{descrip}</p>
       </div>
       </a>
@@ -23,10 +23,10 @@ function MediaCard({ link, img, event, date, title, descrip }) {
 MediaCard.propTypes = {
     link: PropTypes.string.isRequired,
     img: PropTypes.string.isRequired,
-  event: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  date: PropTypes.string.isRequired,
-  descrip: PropTypes.string.isRequired,
-};
+    event: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
+    descrip: PropTypes.string.isRequired,
+    };
 
 export default MediaCard;

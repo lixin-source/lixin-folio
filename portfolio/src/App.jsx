@@ -178,7 +178,12 @@ function App() {
       <h1>media</h1>
       <p className='subtxt'><em>As a panelist & public speaker, I strive to continue advocacy outside of the classroom and within technology to raise awareness and share information</em></p>
       <div className='mediaCards'>
-        <MediaCard link='https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-target-blank.md'img='/src/imgs/ifem.jpg' title='Panelist' date='Feb 2023' event='Conference' descrip='Good stuff'/>
+        <MediaCard link='https://www.linkedin.com/posts/activity-7057743198399393792-YTgy/?utm_source=share&utm_medium=member_desktop'
+        img='/src/imgs/media/media1.jpeg' title='Panelist' date='Apr 2023' event='Guttman Community College' descrip='A panel discussion about career pathways for immigrant students'/>
+
+        <MediaCard link='https://www.linkedin.com/posts/activity-7057743198399393792-YTgy/?utm_source=share&utm_medium=member_desktop'
+        img='/src/imgs/media/media2.PNG' title='Panelist' date='Apr 2023' event='CUNY IIE Conference' descrip='As a part of the conference, the panel discussed career opportunities and challenges for immigrant educators within higher education.'/>
+      
       </div>
     </section>
 
