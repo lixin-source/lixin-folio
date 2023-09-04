@@ -54,7 +54,7 @@ function App() {
           <p> I&apos;m open to opportunities in frontend development, data science/analysis, UX research, community organizing, & public speaking. Feel free to reach out!</p>
           </div>
         </div>
-        <img src={'/assets/imgs/aboutimg.png'} className='aboutimg'/>
+        <img src={'./assets/imgs/aboutimg.png'} className='aboutimg'/>
       </div>
     </section>
 
