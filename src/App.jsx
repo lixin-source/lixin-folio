@@ -8,6 +8,10 @@ import MediaCard from './components/MediaCard';
 import BackToTopButton from './components/TopButton';
 import Loading from './components/Loading';
 
+// import imgs
+import aboutimg from "./assets/imgs/aboutimg.png";
+
+
 function App() {
   
   useEffect(() => {
@@ -54,7 +58,7 @@ function App() {
           <p> I&apos;m open to opportunities in frontend development, data science/analysis, UX research, community organizing, & public speaking. Feel free to reach out!</p>
           </div>
         </div>
-        <img src={'./assets/imgs/aboutimg.png'} className='aboutimg'/>
+        <img src={aboutimg} className='aboutimg'/>
       </div>
     </section>
 
