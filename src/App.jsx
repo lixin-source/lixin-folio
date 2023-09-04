@@ -27,12 +27,12 @@ import uwnyc from "./assets/imgs/uwnyc.jpg";
 import proj1 from "./assets/imgs/proj1.PNG";
 import proj3 from "./assets/imgs/proj3.PNG";
 import proj2 from "./assets/imgs/proj2.PNG";
-import media1 from ".assets/imgs/media/media1.jpeg";
-import media2 from ".assets/imgs/media/media2.jPNG";
-import media3 from ".assets/imgs/media/media3.jpg";
-import email from "./assets/light/mail.svg";
-import github from "./assets/light/github.svg";
-import linkedin from "./assets/light/linkedin.svg";
+import media1 from "./assets/imgs/media/media1.jpeg";
+import media2 from "./assets/imgs/media/media2.jPNG";
+import media3 from "./assets/imgs/media/media3.jpg";
+import email from "./assets/LIGHT/mail.svg";
+import github from "./assets/LIGHT/github.svg";
+import linkedin from "./assets/LIGHT/linkedin.svg";
 
 
 
