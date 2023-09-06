@@ -51,6 +51,11 @@ nav a {
   text-decoration: none;
   margin: 0 15px;
   font-size: large;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color:#5E79FF;
 }
 
 /* APP.JSX */
@@ -68,10 +73,8 @@ nav a {
 
 .aboutLeft {
   display: inline-block;
-  /* justify-content: center; */
   align-items: left;
   padding-left: 200px;
-  /* padding-right: 200px; */
 }
 
 .aboutLeft h1 {
@@ -91,10 +94,15 @@ nav a {
   border-radius: 5px;
 }
 
+.item-header:hover {
+  color:#5E79FF;
+}
+
 .item-header {
   display: flex;
   align-items: center;
   cursor: pointer;
+  transition: color 0.3s ease;
 }
 
 .item-header img {
@@ -112,11 +120,8 @@ nav a {
   height: 20px;
   border-radius: 50%;
   background-color: #E4F1F7;
-  left: -15px; /* Adjust this value as needed */
-  /* top: calc(50% - 10px); */
+  left: -15px;
   z-index: 1;
-  /* border-color: #8CA5FF; */
-  /* border: 5px solid #8CA5FF; */
   border: 5px solid #5E79FF;
 }
 
@@ -127,10 +132,8 @@ nav a {
 .item-content {
   margin-top: 10px;
   padding: 10px;
-  /* border: 1px solid #ccc; */
   border-radius: 5px;
-    /* transition: 0.3s ease-in-out; */
-    transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .itemContentLine {
