@@ -198,16 +198,17 @@ nav a:hover {
 .buttons a {
   display: inline-block;
   padding: 8px 12px;
-  border: 1px solid #333;
+  border: 1px solid #8CA5FF;
   border-radius: 4px;
   text-decoration: none;
-  color: #333;
+  color:#090045;
+  background-color:#CBDBE6;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .buttons a:hover {
-  background-color: #333;
-  color: #fff;
+  background-color:#090045;
+  color:#CBDBE6;
 }
 
 
