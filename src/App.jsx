@@ -30,6 +30,7 @@ import proj2 from "./assets/imgs/proj2.PNG";
 import media1 from "./assets/imgs/media/media1.jpeg";
 import media2 from "./assets/imgs/media/media2.PNG";
 import media3 from "./assets/imgs/media/media3.jpg";
+import media4 from "./assets/imgs/media/media4.PNG";
 import email from "./assets/LIGHT/mail.svg";
 import github from "./assets/LIGHT/github.svg";
 import linkedin from "./assets/LIGHT/linkedin.svg";
@@ -207,6 +208,8 @@ function App() {
       <h1>media</h1>
       <p className='subtxt'><em>As a panelist & public speaker, I strive to continue advocacy outside of the classroom and within technology to raise awareness and share information</em></p>
       <div className='mediaCards'>
+        <MediaCard img={media4} title='Panelist' date='Sep 2023' event='CUNY UISP & Macaulay Honors' descrip='Information session with a panel of undocu/immigrant students to speak about experiences in navigating undocu-friendly fellowships'/>
+
         <MediaCard link='https://www.linkedin.com/posts/activity-7057743198399393792-YTgy/?utm_source=share&utm_medium=member_desktop'
         img={media1} title='Panelist' date='Apr 2023' event='Guttman Community College' descrip='A panel discussion about career pathways for immigrant students'/>
 
@@ -216,6 +219,7 @@ function App() {
       <MediaCard link='https://www.linkedin.com/posts/activity-7057743198399393792-YTgy/?utm_source=share&utm_medium=member_desktop'
         img={media3} title='Panelist' date='Feb 2023' event='TheDream.US Scholar Welcome' descrip='A speaker panel about the experiences of TheDream.US scholars, helping students answer questions'/>
       
+
       </div>
     </section>
 
