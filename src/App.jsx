@@ -7,6 +7,7 @@ import ProjectCard from './components/ProjectCard';
 import MediaCard from './components/MediaCard';
 import BackToTopButton from './components/TopButton';
 import Loading from './components/Loading';
+import Certificate from './components/Certificate';
 
 // import imgs
 import aboutimg from "./assets/imgs/aboutimg.png";
@@ -31,6 +32,9 @@ import media1 from "./assets/imgs/media/media1.jpeg";
 import media2 from "./assets/imgs/media/media2.PNG";
 import media3 from "./assets/imgs/media/media3.jpg";
 import media4 from "./assets/imgs/media/media4.PNG";
+import cert1 from "./assets/imgs/certs/samsungai.PNG";
+import cert2 from "./assets/imgs/certs/cp1.PNG";
+import cert3 from "./assets/imgs/certs/cp2.PNG";
 import email from "./assets/LIGHT/mail.svg";
 import github from "./assets/LIGHT/github.svg";
 import linkedin from "./assets/LIGHT/linkedin.svg";
@@ -86,6 +90,19 @@ function App() {
         <img src={aboutimg} className='aboutimg'/>
       </div>
     </section>
+
+    {/* CERTIFICATES */}
+    <section id='certificates'>
+        <div className='certificatesSection'>
+        <h1 className='cert-title'>certificates</h1>
+          <div className='cert-cards'>
+            <Certificate img={cert1} title='Samsung Innovation Campus Artificial Intelligence Course' date='May 2023' link='https://www.credly.com/badges/5610d56c-7bf6-481d-bca4-353ae205db37/public_url'/>
+            <Certificate img={cert3} title='CodePath Intermediate Web Development' date='May 2023'/>
+            <Certificate img={cert2} title='CodePath Intermediate Software Engineering' date='Aug 2022'/>
+          </div>
+        </div>
+    </section>
+
 
     {/* EXPERIENCES */}
     <section id="experiences">
@@ -202,6 +219,7 @@ function App() {
         img={proj3} techstack='React, Javascript, HTML/CSS' github='https://github.com/lixin-source/sanrio-quiz' demo='https://nimble-marzipan-e3d3b4.netlify.app/'/>
       </div>
     </section>
+
 
     {/* MEDIA */}
     <section id='media'>
