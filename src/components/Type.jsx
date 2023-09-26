@@ -12,8 +12,9 @@ function Type() {
             options={{
               strings: [
                 "a Web Developer",
-                "a UX/UI Designer",
                 "a Data Scientist",
+                "a Project Manager",
+                "a Facilitator & Speaker",
                 "an Advocate",
               ],
               autoStart: true,

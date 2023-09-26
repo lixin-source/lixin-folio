@@ -75,16 +75,20 @@ function App() {
         <div className='aboutLeft'>
           <h1>about</h1>
           <div className='aboutText'>
-          <p> Hi! I&apos;m Xin Yi Li, a first-generation college graduate from CUNY Brooklyn College in May 2023 (Bachelor&apos;Computer Science & Sociology).
-          I also graduated from CUNY Borough of Manhattan Community College in May 2021 (Associate&apos;s in Computer Science).
+          <p>
+      Hi! I&apos;m Xin Yi Li, a member of Radiate Consulting. The services I provide include{' '}
+      <span style={{ color: '#5E79FF', fontStyle: 'italic' }}>
+        front-end development, data analysis, project/event coordination, workshop facilitation, public speaking, social media management & content creation
+      </span>
+    .</p>
+    
+          <p> I&apos;m a <span style={{ color: '#5E79FF', fontStyle: 'italic' }}>first-generation college graduate</span> from CUNY Brooklyn College (Bachelor&apos;Computer Science & Minor in Sociology).
+          I also graduated from CUNY Borough of Manhattan Community College (Associate&apos;s in Computer Science).
           </p>
-          <p> I&apos;ve participated in tech opportunities with Microsoft Research, Pfizer, Brooklyn College&apos;s Cancer Center, & more. I also have a strong skillset in public speaking, content creation, social media management, & community organizing that I developed
+            <p> I&apos;ve participated in tech opportunities with Microsoft Research, Pfizer, Brooklyn College&apos;s Cancer Center, & more. I also have a strong skillset in public speaking, content creation, social media management, & community organizing that I developed
             during my undergrad with NYC&apos;s Department of Education, CUNY, TheDream.US, and more!
           </p>
-          <p>
-            The main programming languages I use are Python & Javascript.
-          </p>
-          <p> I&apos;m open to opportunities in frontend development, data science/analysis, UX research, community organizing, & public speaking. Feel free to reach out!</p>
+          <p> Reach out to me for inquiries <a href="#contact" className='aboutHere'>here</a>. </p>
           </div>
         </div>
         <img src={aboutimg} className='aboutimg'/>
@@ -109,6 +113,7 @@ function App() {
       <div className='expSection'>
         <h1>experiences</h1>
         <div className='timeline'>
+
           <ListItem title='Event & Programs Intern @ Asiyah Women&apos; Center' content='
           Assisted in the planning, coordination, & execution of events, ensuring seamless logistics & a positive attendee experience.
           Collaborated with cross-functional teams to develop event concepts & themes.

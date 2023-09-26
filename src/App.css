@@ -87,6 +87,11 @@ nav a:hover {
   max-height: 400px;
 }
 
+.aboutHere {
+  color:#5E79FF;
+  text-decoration: none;
+}
+
 /* ListItem */
 .list-item {
   margin: 10px;
