@@ -176,7 +176,6 @@ function App() {
           Created and evaluated extended research from the replicated draw data external conclusions
           ' img={ms} date ='June 2021' location='Remote'/>
 
-{/* GET IMGS FOR: */}
           <ListItem title='UndocuAcademy Mentor @ New York State Youth Leadership Council' content='
           Selected for a team of 8 college mentors to help high school senior students guide through the college application process.
           Assisted 1 on 1 with a student for several months through scholarship applications, college options, and general questions about the college application process.
@@ -221,7 +220,7 @@ function App() {
         <ProjectCard title='FinLand' content='Using usability tests & user research, this Figma prototype was created to address financial literacy. I worked in a team of two to create the prototype and conducted user research as well.' 
         img={proj2} techstack='Figma' demo='https://www.figma.com/proto/qrRI6cuDM4SQmPXWXwyfLb/Avocademy-team-library?node-id=411%3A21&scaling=scale-down&page-id=411%3A18&starting-point-node-id=411%3A21&show-proto-sidebar=1' />
         <ProjectCard title='Sanrio Flashcards' content='A frontend React quiz application for users to test their sanrio knowledge. This is a for-fun application that people can use to quiz themselves, share with friends, etc.' 
-        img={proj3} techstack='React, Javascript, HTML/CSS' github='https://github.com/lixin-source/sanrio-quiz' demo='https://nimble-marzipan-e3d3b4.netlify.app/'/>
+        img={proj3} techstack='React, Javascript, HTML/CSS' github='https://github.com/lixin-source/sanrio-quiz' demo='https://sanrio-quiz.netlify.app/'/>
       </div>
     </section>
 
